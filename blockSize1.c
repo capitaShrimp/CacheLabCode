@@ -24,11 +24,11 @@ int main()
   register int solution = 0;
 
   for (outer_loop = 0; outer_loop < NUM_LOOPS; outer_loop++)
-    {
-      for (inner_loop = 0; inner_loop < ARRAY_SIZE; inner_loop++)
-	{
-	  solution *= array[inner_loop];
-	}
-    }
+  {
+    for (inner_loop = 0; inner_loop < ARRAY_SIZE; inner_loop++)
+  	{
+  	  solution *= array[inner_loop];
+  	}
+  }
   return solution;
 }
